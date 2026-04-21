@@ -1,0 +1,48 @@
+baseURL = "https://horoskop2024.org/"
+languageCode = "hu"
+title = "Horoskop2024 – Legjobb Online Kaszinók"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  env = "production"
+  title = "Horoskop2024"
+  description = "A legjobb online kaszinók, bónuszok és ingyenes pörgetések Magyarországon"
+  author = "Horoskop2024"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "🎰 Legjobb Online Kaszinók 2024"
+  Content = "Megbízható kaszinó vélemények, exkluzív bónuszok és ingyenes pörgetések magyar játékosoknak."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    name = "Kaszinók"
+    url = "/kazino/"
+    weight = 1
+  [[menu.main]]
+    name = "Bónuszok"
+    url = "/bonuszok/"
+    weight = 2
+  [[menu.main]]
+    name = "Ingyenes Pörgetések"
+    url = "/ingyenes-porgetesek/"
+    weight = 3
+  [[menu.main]]
+    name = "Horoszkóp"
+    url = "/horoszko p/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
