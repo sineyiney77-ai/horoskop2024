@@ -1,5 +1,5 @@
 ---
-title: "Ingyenes Pörgetések 2024"
+title: "Ingyenes Pörgetések 2025"
 description: "A legjobb ingyenes pörgetési ajánlatok online kaszinókban."
 ---
 

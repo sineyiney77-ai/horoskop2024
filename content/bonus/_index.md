@@ -1,5 +1,5 @@
 ---
-title: "Kaszinó Bónuszok 2024"
+title: "Kaszinó Bónuszok 2025"
 description: "A legjobb kaszinó bónuszok és promóciók."
 ---
 

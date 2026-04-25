@@ -1,5 +1,5 @@
 ---
-title: "Hogyan Regisztrálj Online Kaszinóban Magyarországon – Útmutató 2024"
+title: "Hogyan Regisztrálj Online Kaszinóban Magyarországon – Útmutató 2025"
 description: "Lépésről lépésre útmutató az online kaszinóban való regisztrációhoz Magyarországon."
 date: 2024-01-10
 categories: ["Útmutatók"]

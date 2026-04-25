@@ -1,5 +1,5 @@
 ---
-title: "1xBet Alternatíva Magyarország – 1xBit Kaszinó 2024"
+title: "1xBet Alternatíva Magyarország – 1xBit Kaszinó 2025"
 description: "Keresed az 1xBet alternatíváját Magyarországon? Az 1xBit kaszinó jobb bónuszokat, több játékot és Bitcoin fizetést kínál."
 date: 2024-01-03
 categories: ["Casinos"]

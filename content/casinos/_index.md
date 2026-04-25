@@ -1,5 +1,5 @@
 ---
-title: "Legjobb Online Kaszinók 2024"
+title: "Legjobb Online Kaszinók 2025"
 description: "Összes legjobb online kaszinó. Hasonlítsa össze a bónuszokat, játékokat és fizetési módokat."
 ---
 

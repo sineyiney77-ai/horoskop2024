@@ -1,5 +1,5 @@
 ---
-title: "Legjobb Online Kaszinók Magyarország 2024"
+title: "Legjobb Online Kaszinók Magyarország 2025"
 description: "A legjobb online kaszinók Magyarországon – bónuszok, ingyenes pörgetések és megbízható vélemények magyar játékosoknak."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Hell Casino 2024"
+title: "Hell Casino 2025"
 description: "Hell Casino – A legjobb online kaszinó Magyarországon. 100% bónusz 300€-ig + 50 ingyenes pörgetés."
 date: 2024-01-01
 categories: ["Casinos"]
