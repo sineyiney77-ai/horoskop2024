@@ -1,16 +1,17 @@
 baseURL = "https://horoskop2024.org/"
 languageCode = "hu"
-title = "Horoskop2024 – Legjobb Online Kaszinók"
+title = "Legjobb Online Kaszinók Magyarország 2024"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 
+[pagination]
+  pagerSize = 10
+
 [params]
   env = "production"
-  title = "Horoskop2024"
-  description = "A legjobb online kaszinók, bónuszok és ingyenes pörgetések Magyarországon"
-  author = "Horoskop2024"
+  title = "Legjobb Online Kaszinók Magyarország 2024"
+  description = "A legjobb online kaszinók Magyarországon – bónuszok, ingyenes pörgetések és megbízható vélemények magyar játékosoknak."
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -19,8 +20,8 @@ buildDrafts = false
   ShowToc = true
 
 [params.homeInfoParams]
-  Title = "🎰 Legjobb Online Kaszinók 2024"
-  Content = "Megbízható kaszinó vélemények, exkluzív bónuszok és ingyenes pörgetések magyar játékosoknak."
+  Title = "🎰 Legjobb Online Kaszinók Magyarország 2024"
+  Content = "Megbízható vélemények, exkluzív bónuszok és ingyenes pörgetések."
 
 [taxonomies]
   category = "categories"
@@ -29,19 +30,19 @@ buildDrafts = false
 [menu]
   [[menu.main]]
     name = "Kaszinók"
-    url = "/kazino/"
+    url = "/casinos/"
     weight = 1
   [[menu.main]]
     name = "Bónuszok"
-    url = "/bonuszok/"
+    url = "/bonus/"
     weight = 2
   [[menu.main]]
     name = "Ingyenes Pörgetések"
-    url = "/ingyenes-porgetesek/"
+    url = "/free-spins/"
     weight = 3
   [[menu.main]]
-    name = "Horoszkóp"
-    url = "/horoszko p/"
+    name = "Útmutatók"
+    url = "/guides/"
     weight = 4
 
 [outputs]
