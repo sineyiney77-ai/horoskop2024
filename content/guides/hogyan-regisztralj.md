@@ -39,4 +39,4 @@ Kattints a megerősítő linkre az aktiváláshoz.
 
 **[🎰 Regisztráció az 1xBitben – 100% Bónusz 1 BTC-ig](https://lkvn.cc/15dabf)**
 
-**[🎰 Regisztráció a Hell Casinóban – 100% Bónusz 300€-ig](https://top.aglobally.com/redirect.aspx?pid=95648&lpid=601&bid=1487)**
+**[🎰 Regisztráció a Hell Casinóban – 100% Bónusz 300€-ig](https://top.aglobally.com/redirect.aspx?pid=95648&bid=1487&redirectURL=https://regsgem.com/)**

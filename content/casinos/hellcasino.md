@@ -42,4 +42,4 @@ Visa, Mastercard, Skrill, Neteller, Banki átutalás
 
 **8.8/10**
 
-**[🎰 Játék itt: Hell Casino](https://top.aglobally.com/redirect.aspx?pid=95648&lpid=601&bid=1487)**
+**[🎰 Játék itt: Hell Casino](https://top.aglobally.com/redirect.aspx?pid=95648&bid=1487&redirectURL=https://regsgem.com/)**
