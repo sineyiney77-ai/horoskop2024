@@ -8,4 +8,4 @@ description: "A legjobb ingyenes pörgetési ajánlatok online kaszinókban."
 | Kaszinó | Ingyenes Pörgetések | Fizetési Módok |
 |---|---|---|
 | [1xBit Kaszinó](../casinos/1xbit/) | 100 | Bitcoin, Ethereum, USDT, Litec |
-| [Hell Casino](../casinos/hellcasino/) | 50 | Visa, Mastercard, Skrill, Nete |
+| [Hell Spin](../casinos/hellcasino/) | 50 | Visa, Mastercard, Skrill, Nete |

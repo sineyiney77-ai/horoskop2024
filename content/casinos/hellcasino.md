@@ -1,16 +1,16 @@
 ---
-title: "Hell Casino 2025"
-description: "Hell Casino – A legjobb online kaszinó Magyarországon. 100% bónusz 300€-ig + 50 ingyenes pörgetés."
+title: "Hell Spin 2025"
+description: "Hell Spin – A legjobb online kaszinó Magyarországon. 100% bónusz 300€-ig + 50 ingyenes pörgetés."
 date: 2024-01-01
 categories: ["Casinos"]
 cover:
   image: "https://images.pexels.com/photos/29825629/pexels-photo-29825629.jpeg?auto=compress&cs=tinysrgb&w=800"
-  alt: "Hell Casino Magyarország"
+  alt: "Hell Spin Magyarország"
   relative: false
 tags: ["hellcasino", "casino", "bonus"]
 ---
 
-## Hell Casino
+## Hell Spin
 
 ### 🎁 Üdvözlő Bónusz
 
@@ -42,4 +42,4 @@ Visa, Mastercard, Skrill, Neteller, Banki átutalás
 
 **8.8/10**
 
-**[🎰 Játék itt: Hell Casino](https://top.aglobally.com/redirect.aspx?pid=95648&bid=1487&redirectURL=https://regsgem.com/)**
+**[🎰 Játék itt: Hell Spin](https://top.aglobally.com/redirect.aspx?pid=95648&bid=1487&redirectURL=https://regsgem.com/)**
