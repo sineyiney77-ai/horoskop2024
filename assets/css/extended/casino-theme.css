@@ -107,12 +107,12 @@ table thead tr, table tbody tr {
 }
 
 table th, table td {
-  width: auto;
+  white-space: nowrap;
 }
 
-table th:last-child, table td:last-child {
-  width: 100%;
-}
+table th:nth-child(1), table td:nth-child(1) { width: 20%; }
+table th:nth-child(2), table td:nth-child(2) { width: 50%; white-space: normal; }
+table th:nth-child(3), table td:nth-child(3) { width: 30%; }
 
 table thead tr {
   background: linear-gradient(90deg, #1a7a4a, #145e38);
