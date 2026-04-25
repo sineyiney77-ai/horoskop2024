@@ -26,12 +26,26 @@ A **befizetés nélküli bónuszok** olyan különleges ajánlatok, amelyekkel v
 
 <div class="casino-card">
   <div class="casino-card-rank">#2</div>
+  <div class="casino-card-logo">🏆</div>
+  <div class="casino-card-info">
+    <div class="casino-card-name">1Win Kaszinó</div>
+    <div class="casino-card-stars">⭐⭐⭐⭐⭐</div>
+    <div class="casino-card-bonus">500% bónusz az első 4 befizetésre</div>
+    <div class="casino-card-desc">10 000+ játék, sportfogadás és élő kaszinó egy helyen</div>
+  </div>
+  <div class="casino-card-cta">
+    <a href="https://1wzpdo.life/?p=ognn" rel="nofollow">Bónusz megszerzése</a>
+  </div>
+</div>
+
+<div class="casino-card">
+  <div class="casino-card-rank">#3</div>
   <div class="casino-card-logo">🔥</div>
   <div class="casino-card-info">
-    <div class="casino-card-name">Hell Spin Casino</div>
+    <div class="casino-card-name">Hell Spin Kaszinó</div>
     <div class="casino-card-stars">⭐⭐⭐⭐⭐</div>
-    <div class="casino-card-bonus">100% + 50 ingyenes pörgetés befizetés után</div>
-    <div class="casino-card-desc">Prémium élő kaszinó, gyors kifizetések, magyar nyelvű ügyfélszolgálat</div>
+    <div class="casino-card-bonus">100% + 50 ingyenes pörgetés</div>
+    <div class="casino-card-desc">Prémium élő kaszinó, gyors kifizetések, magyar ügyfélszolgálat</div>
   </div>
   <div class="casino-card-cta">
     <a href="https://top.aglobally.com/redirect.aspx?pid=95648&bid=1487&redirectURL=https://regsgem.com/" rel="nofollow">Bónusz megszerzése</a>
