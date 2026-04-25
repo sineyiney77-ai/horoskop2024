@@ -1,6 +1,6 @@
 ---
 title: "Hell Casino 2024"
-description: "Hell Casino Alternatíva:  – 100% 300€-ig + 50 ingyenes pörgetés." if cross_brand else "Hell Casino – 100% 300€-ig + 50 ingyenes pörgetés."
+description: "Hell Casino – A legjobb online kaszinó Magyarországon. 100% bónusz 300€-ig + 50 ingyenes pörgetés."
 date: 2024-01-01
 categories: ["Casinos"]
 cover:
