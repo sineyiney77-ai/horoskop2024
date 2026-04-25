@@ -102,26 +102,6 @@ table {
   display: table !important;
 }
 
-/* Full-width content area */
-.post-single .post-content,
-.post-content,
-.entry-content,
-.main {
-  max-width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.post-single {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-.home-info {
-  max-width: 900px;
-  margin: 0 auto 2rem auto;
-}
 
 table thead tr, table tbody tr {
   width: 100%;
