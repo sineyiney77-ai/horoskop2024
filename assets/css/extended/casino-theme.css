@@ -1,0 +1,246 @@
+/* =============================================
+   CASINO THEME - Falia.net
+   ============================================= */
+
+:root {
+  --gold: #f5c518;
+  --gold-dark: #d4a017;
+  --green: #1a7a4a;
+  --green-dark: #145e38;
+  --red: #c0392b;
+  --card-bg: #1e1e2e;
+  --accent: #f5c518;
+}
+
+/* ── HEADER ─────────────────────────────────── */
+.header {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+  border-bottom: 2px solid var(--gold);
+  box-shadow: 0 2px 20px rgba(245, 197, 24, 0.3);
+}
+
+.logo a, .logo-switches a {
+  color: var(--gold) !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#menu-header-menu a {
+  color: #e0e0e0 !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+#menu-header-menu a:hover {
+  color: var(--gold) !important;
+}
+
+/* ── HOME INFO / HERO ────────────────────────── */
+.home-info {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 60%, #16213e 100%);
+  border: 1px solid rgba(245, 197, 24, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 30px rgba(245, 197, 24, 0.1);
+}
+
+.home-info .entry-header h1 {
+  color: var(--gold);
+  font-size: 1.8rem;
+  text-shadow: 0 0 20px rgba(245, 197, 24, 0.4);
+}
+
+.home-info .entry-content p {
+  color: #c0c0c0;
+  font-size: 1.05rem;
+}
+
+/* ── POST CARDS ──────────────────────────────── */
+.post-entry {
+  border-radius: 12px;
+  border: 1px solid rgba(245, 197, 24, 0.15);
+  background: linear-gradient(145deg, #1a1a2e, #16213e);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  overflow: hidden;
+}
+
+.post-entry:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(245, 197, 24, 0.2);
+  border-color: var(--gold);
+}
+
+.post-entry .entry-header h2 {
+  color: #f0f0f0;
+}
+
+.post-entry .entry-content p {
+  color: #a0a0a0;
+}
+
+.post-entry .entry-footer {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+/* ── TABLES ──────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+table thead tr {
+  background: linear-gradient(90deg, #1a7a4a, #145e38);
+}
+
+table thead th {
+  color: var(--gold);
+  font-weight: 700;
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  border: none;
+}
+
+table tbody tr {
+  background: #1a1a2e;
+  transition: background 0.2s;
+}
+
+table tbody tr:nth-child(even) {
+  background: #16213e;
+}
+
+table tbody tr:hover {
+  background: #1f2d4a;
+}
+
+table tbody td {
+  padding: 11px 16px;
+  color: #d0d0d0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.95rem;
+}
+
+table tbody td:first-child {
+  color: #f0f0f0;
+  font-weight: 600;
+}
+
+/* ── AFFILIATE BUTTONS ───────────────────────── */
+.post-content a[href*="refpa"],
+.post-content a[href*="aglobally"],
+.post-content a[href*="lkvn"],
+.post-content a[href*="lkiv"] {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+  color: #1a1a1a !important;
+  font-weight: 800;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none !important;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(245, 197, 24, 0.4);
+  margin: 8px 0;
+  text-align: center;
+}
+
+.post-content a[href*="refpa"]:hover,
+.post-content a[href*="aglobally"]:hover,
+.post-content a[href*="lkvn"]:hover,
+.post-content a[href*="lkiv"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(245, 197, 24, 0.6);
+}
+
+/* ── HEADINGS ────────────────────────────────── */
+.post-content h2 {
+  color: var(--gold);
+  border-bottom: 1px solid rgba(245, 197, 24, 0.2);
+  padding-bottom: 0.4rem;
+  margin-top: 2rem;
+}
+
+.post-content h3 {
+  color: #e8e8e8;
+  margin-top: 1.5rem;
+}
+
+/* ── BREADCRUMBS ─────────────────────────────── */
+.breadcrumbs {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.breadcrumbs a {
+  color: var(--gold) !important;
+}
+
+/* ── RATING STARS ────────────────────────────── */
+.post-content p strong {
+  color: var(--gold);
+}
+
+/* ── FOOTER ──────────────────────────────────── */
+.footer {
+  background: #0f0f1a;
+  border-top: 1px solid rgba(245, 197, 24, 0.2);
+  color: #666;
+}
+
+.footer a {
+  color: var(--gold) !important;
+}
+
+/* ── DARK MODE OVERRIDE ──────────────────────── */
+body {
+  background: #0f0f1a;
+  color: #d0d0d0;
+}
+
+.main {
+  background: transparent;
+}
+
+/* ── COVER IMAGES ────────────────────────────── */
+.post-entry .entry-cover {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.entry-cover img {
+  transition: transform 0.3s;
+}
+
+.post-entry:hover .entry-cover img {
+  transform: scale(1.05);
+}
+
+/* ── TAGS ────────────────────────────────────── */
+.post-tags a {
+  background: rgba(245, 197, 24, 0.1);
+  color: var(--gold) !important;
+  border: 1px solid rgba(245, 197, 24, 0.3);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.8rem;
+  transition: background 0.2s;
+}
+
+.post-tags a:hover {
+  background: rgba(245, 197, 24, 0.25);
+}
+
+/* ── SCROLLBAR ───────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0f0f1a; }
+::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 3px; }
