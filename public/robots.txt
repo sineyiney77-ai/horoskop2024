@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://horoskop2024.org/sitemap.xml
