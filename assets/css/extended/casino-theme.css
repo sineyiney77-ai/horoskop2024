@@ -267,3 +267,102 @@ body {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #0f0f1a; }
 ::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 3px; }
+
+/* ── CASINO BONUS CARDS ──────────────────────── */
+.casino-card {
+  background: linear-gradient(145deg, #1a1a2e, #16213e);
+  border: 1px solid rgba(245, 197, 24, 0.2);
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.casino-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(245, 197, 24, 0.2);
+  border-color: var(--gold);
+}
+
+.casino-card-rank {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--gold);
+  min-width: 2.5rem;
+  text-align: center;
+}
+
+.casino-card-logo {
+  min-width: 80px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.casino-card-info {
+  flex: 1;
+}
+
+.casino-card-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  margin-bottom: 0.3rem;
+}
+
+.casino-card-bonus {
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.casino-card-desc {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}
+
+.casino-card-stars {
+  color: var(--gold);
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.casino-card-cta {
+  min-width: 140px;
+  text-align: center;
+}
+
+.casino-card-cta a {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+  color: #1a1a1a !important;
+  font-weight: 800;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none !important;
+  font-size: 0.95rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(245, 197, 24, 0.4);
+  white-space: nowrap;
+}
+
+.casino-card-cta a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(245, 197, 24, 0.6);
+}
+
+@media (max-width: 600px) {
+  .casino-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .casino-card-cta {
+    width: 100%;
+  }
+  .casino-card-cta a {
+    width: 100%;
+  }
+}
