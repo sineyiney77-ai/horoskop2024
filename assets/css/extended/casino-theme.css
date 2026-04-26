@@ -8,6 +8,20 @@ body, html {
                Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Widen content to match nav width (1024px), keep images at original size */
+:root {
+  --main-width: 1024px;
+}
+figure.entry-cover {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure.entry-cover img {
+  max-width: 720px;
+  width: 100%;
+}
+
 :root {
   --gold: #f5c518;
   --gold-dark: #d4a017;
