@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin Befizetés Online Kaszinóban Magyarország – Útmutató 2025"
+title: "Bitcoin Befizetés Online Kaszinóban Magyarország – Útmutató 2026"
 description: "Hogyan fizess be Bitcoinnal online kaszinóban Magyarországon? Gyors, névtelen és biztonságos."
 date: 2024-01-11
 categories: ["Útmutatók"]
@@ -8,6 +8,7 @@ cover:
   image: "https://images.pexels.com/photos/6764526/pexels-photo-6764526.jpeg?auto=compress&cs=tinysrgb&w=800"
   alt: "Bitcoin Befizetés Kaszinó Magyarország"
   relative: false
+canonicalURL: "https://horoskop2024.org/guides/bitcoin-befizetes/"
 ---
 
 ## Bitcoin Befizetés Online Kaszinóban

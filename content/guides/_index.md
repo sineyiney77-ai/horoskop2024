@@ -1,5 +1,5 @@
 ---
-title: "Útmutatók Online Kaszinókhoz Magyarország 2025"
+title: "Útmutatók Online Kaszinókhoz Magyarország 2026"
 description: "Teljes útmutatók magyar játékosoknak – regisztráció, befizetés, bónuszok és Bitcoin kaszinók."
 ---
 

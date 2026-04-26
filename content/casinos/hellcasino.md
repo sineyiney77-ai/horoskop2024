@@ -1,5 +1,5 @@
 ---
-title: "Hell Spin 2025"
+title: "Hell Spin 2026"
 description: "Hell Spin – A legjobb online kaszinó Magyarországon. 100% bónusz 300€-ig + 50 ingyenes pörgetés."
 date: 2024-01-01
 categories: ["Casinos"]
@@ -8,6 +8,7 @@ cover:
   alt: "Hell Spin Magyarország"
   relative: false
 tags: ["hellcasino", "casino", "bonus"]
+canonicalURL: "https://horoskop2024.org/casinos/hellcasino/"
 ---
 
 ## Hell Spin

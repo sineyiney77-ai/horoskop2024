@@ -1,5 +1,5 @@
 ---
-title: "1xBit Kaszinó – Alternatíva: 1xBet 2025"
+title: "1xBit Kaszinó – Alternatíva: 1xBet 2026"
 description: "1xBit Kaszinó – A legjobb alternatíva az 1xBet helyett Magyarországon. Bitcoin kaszinó 100% bónusszal 1 BTC-ig + 100 ingyenes pörgetés."
 date: 2024-01-01
 categories: ["Casinos"]
@@ -8,6 +8,7 @@ cover:
   alt: "1xBit Bitcoin Kaszinó Magyarország"
   relative: false
 tags: ["1xbit", "casino", "bonus"]
+canonicalURL: "https://horoskop2024.org/casinos/1xbit/"
 ---
 
 ## 1xBit Kaszinó

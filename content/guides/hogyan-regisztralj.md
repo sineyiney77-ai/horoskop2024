@@ -1,5 +1,5 @@
 ---
-title: "Hogyan Regisztrálj Online Kaszinóban Magyarországon – Útmutató 2025"
+title: "Hogyan Regisztrálj Online Kaszinóban Magyarországon – Útmutató 2026"
 description: "Lépésről lépésre útmutató az online kaszinóban való regisztrációhoz Magyarországon."
 date: 2024-01-10
 categories: ["Útmutatók"]
@@ -8,6 +8,7 @@ cover:
   image: "https://images.pexels.com/photos/19045723/pexels-photo-19045723.jpeg?auto=compress&cs=tinysrgb&w=800"
   alt: "Online Kaszinó Regisztráció Magyarország"
   relative: false
+canonicalURL: "https://horoskop2024.org/guides/hogyan-regisztralj/"
 ---
 
 ## Hogyan Regisztrálj Online Kaszinóban Magyarországon

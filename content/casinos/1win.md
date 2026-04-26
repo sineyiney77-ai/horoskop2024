@@ -8,6 +8,7 @@ cover:
   image: "https://images.pexels.com/photos/1679602/pexels-photo-1679602.jpeg?auto=compress&cs=tinysrgb&w=800"
   alt: "1Win Kaszinó Magyarország"
   relative: false
+canonicalURL: "https://horoskop2024.org/casinos/1win/"
 ---
 
 ## 1Win Kaszinó – Teljes Értékelés 2026

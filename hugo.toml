@@ -1,16 +1,23 @@
 baseURL = "https://horoskop2024.org/"
 languageCode = "hu"
-title = "Legjobb Online Kaszinók Magyarország 2025"
+title = "Legjobb Online Kaszinók Magyarország 2026"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
+
+[minify]
+  minifyOutput = true
+
+[imaging]
+  quality = 80
+  resampleFilter = "Lanczos"
 
 [pagination]
   pagerSize = 10
 
 [params]
   env = "production"
-  title = "Legjobb Online Kaszinók Magyarország 2025"
+  title = "Legjobb Online Kaszinók Magyarország 2026"
   description = "A legjobb online kaszinók Magyarországon – bónuszok, ingyenes pörgetések és megbízható vélemények magyar játékosoknak."
   defaultTheme = "dark"
   ShowReadingTime = true
@@ -20,7 +27,7 @@ buildDrafts = false
   ShowToc = true
 
 [params.homeInfoParams]
-  Title = "🎰 Legjobb Online Kaszinók Magyarország 2025"
+  Title = "🎰 Legjobb Online Kaszinók Magyarország 2026"
   Content = "Megbízható vélemények, exkluzív bónuszok és ingyenes pörgetések."
 
 [taxonomies]
@@ -44,6 +51,11 @@ buildDrafts = false
     name = "Útmutatók"
     url = "/guides/"
     weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
