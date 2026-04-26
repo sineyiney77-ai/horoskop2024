@@ -372,3 +372,159 @@ body {
     width: 100%;
   }
 }
+
+/* ── CASINO REVIEW BLOCK (banner + review layout) ───── */
+@keyframes crb-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245, 197, 24, 0.5); }
+  50%       { box-shadow: 0 0 0 10px rgba(245, 197, 24, 0); }
+}
+@keyframes crb-float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+@keyframes crb-shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.casino-review-block {
+  display: flex;
+  gap: 0;
+  margin: 1.8rem 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(245, 197, 24, 0.25);
+  background: linear-gradient(145deg, #1a1a2e, #16213e);
+}
+
+/* LEFT BANNER */
+.crb-banner {
+  min-width: 220px;
+  max-width: 220px;
+  background: linear-gradient(180deg, #1a3a2a 0%, #0f2018 100%);
+  border-right: 1px solid rgba(245, 197, 24, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.4rem 1rem;
+  gap: 0.5rem;
+  text-align: center;
+}
+.crb-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.crb-stars {
+  color: var(--gold);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+.crb-logo {
+  font-size: 2.8rem;
+  animation: crb-float 3s ease-in-out infinite;
+  line-height: 1;
+  margin: 0.3rem 0;
+}
+.crb-offer {
+  background: rgba(0,0,0,0.35);
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  width: 100%;
+}
+.crb-offer-label {
+  font-size: 0.65rem;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.2rem;
+}
+.crb-offer-amount {
+  font-size: 1.05rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--gold), #fff8, var(--gold));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: crb-shimmer 2.5s linear infinite;
+}
+.crb-offer-spins {
+  font-size: 0.78rem;
+  color: #b0e0b0;
+  margin-top: 0.2rem;
+}
+.crb-btn {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0;
+  background: linear-gradient(135deg, var(--green), var(--green-dark));
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none !important;
+  margin-top: 0.4rem;
+  animation: crb-pulse 2s ease-in-out infinite;
+  transition: transform 0.2s;
+}
+.crb-btn:hover {
+  transform: scale(1.04);
+  background: linear-gradient(135deg, #22a862, #1a7a4a);
+}
+.crb-rank {
+  font-size: 0.7rem;
+  color: var(--gold);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* RIGHT REVIEW */
+.crb-review {
+  flex: 1;
+  padding: 1.4rem 1.6rem;
+}
+.crb-review h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  border: none;
+}
+.crb-desc {
+  font-size: 0.88rem;
+  color: #c0c0d0;
+  margin-bottom: 0.8rem;
+  line-height: 1.55;
+}
+.crb-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 1rem;
+}
+.crb-features li {
+  font-size: 0.84rem;
+  color: #ddd;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  line-height: 1.4;
+}
+.crb-features li::before {
+  content: "✓";
+  color: #4caf82;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .casino-review-block { flex-direction: column; }
+  .crb-banner { max-width: 100%; min-width: 0; border-right: none; border-bottom: 1px solid rgba(245,197,24,0.2); }
+  .crb-features { grid-template-columns: 1fr; }
+}
