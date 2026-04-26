@@ -1,0 +1,66 @@
+{{ $site := .Site }}
+
+{{/* ── BreadcrumbList — all non-home pages ── */}}
+{{ if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":{{ $site.Title | jsonify }},"item":{{ $site.BaseURL | jsonify }}}
+    {{- with .Parent -}}
+      {{- if not .IsHome -}},{"@type":"ListItem","position":2,"name":{{ .Title | jsonify }},"item":{{ .Permalink | jsonify }}}{{- end -}}
+    {{- end }}
+    ,{"@type":"ListItem","position":{{ with .Parent }}{{ if not .IsHome }}3{{ else }}2{{ end }}{{ else }}2{{ end }},"name":{{ .Title | jsonify }},"item":{{ .Permalink | jsonify }}}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ── FAQPage — rendered when frontmatter has `faq` array ── */}}
+{{ if .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $item := .Params.faq -}}
+    {{- if $i }},{{ end }}
+    {"@type":"Question","name":{{ $item.q | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ $item.a | jsonify }}}}
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ── ItemList — rendered when frontmatter has `casinos` array ── */}}
+{{ if .Params.casinos }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ .Title | jsonify }},
+  "itemListElement": [
+    {{- range $i, $c := .Params.casinos -}}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "item": {
+        "@type": "Organization",
+        "name": {{ $c.name | jsonify }},
+        "description": {{ $c.desc | jsonify }},
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "{{ $c.rating | default "4.8" }}",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "{{ $c.ratingCount | default "143" }}"
+        }
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{ end }}

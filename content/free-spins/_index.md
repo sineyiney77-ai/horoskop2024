@@ -2,6 +2,13 @@
 title: "Ingyenes Pörgetések 2026 – Legjobb Free Spin Ajánlatok"
 description: "A legjobb ingyenes pörgetési ajánlatok online kaszinókban Magyarországon 2026-ban. Regisztrációs és befizetési free spinek."
 canonicalURL: "https://horoskop2024.org/free-spins/"
+faq:
+  - q: "Mi az az ingyenes pörgetés (free spin)?"
+    a: "Az ingyenes pörgetés olyan ajánlat, amellyel díjmentesen pörgethet nyerőgépeket. A nyeremény valódi pénz, amelyet a forgalmazási feltételek teljesítése után lehet felvenni."
+  - q: "Hány ingyenes pörgetést kapnak a legjobb kaszinóknál?"
+    a: "Az 1xBit 100 ingyenes pörgetést ad az első befizetés után, az 1Win 250 pörgetést a Gates of Olympus-on, a Hell Spin 50 ingyenes pörgetést az első befizetésre."
+  - q: "Lehet-e valódi pénzt nyerni ingyenes pörgetésekkel?"
+    a: "Igen, az ingyenes pörgetésekkel szerzett nyeremény valódi pénz. A kifizetéshez azonban el kell érni a meghatározott forgalmazási feltételt (általában 30-40x)."
 ---
 
 ## 🎰 Ingyenes Pörgetések 2026

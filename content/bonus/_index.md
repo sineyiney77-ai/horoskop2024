@@ -2,6 +2,15 @@
 title: "Kaszinó Bónuszok 2026 – Legjobb Ajánlatok Magyarország"
 description: "A legjobb kaszinó bónuszok és promóciók magyar játékosoknak 2026-ban. Üdvözlő bónuszok, cashback és ingyenes pörgetések."
 canonicalURL: "https://horoskop2024.org/bonus/"
+faq:
+  - q: "Mi az az üdvözlő bónusz és hogyan működik?"
+    a: "Az üdvözlő bónusz egy egyszeri ajánlat az első befizetés után. Ha 100% bónuszt kap 10 000 Ft-ra, akkor összesen 20 000 Ft-tal játszhat. A bónuszt általában 30-40-szeres forgalmazási feltétel terheli."
+  - q: "Mi az a befizetés nélküli bónusz?"
+    a: "A befizetés nélküli bónusz olyan ajánlat, amelyet regisztráció után, befizetés nélkül kap. Általában ingyenes pörgetések vagy kis összegű bónusz formájában jelenik meg."
+  - q: "Mi a forgalmazási feltétel (wagering requirement)?"
+    a: "A forgalmazási feltétel megmutatja, hányszor kell megforgatni a bónuszt, mielőtt azt ki lehet venni. Például 30x-os feltétel esetén 10 000 Ft bónuszt 300 000 Ft értékű fogadásra kell fordítani."
+  - q: "Melyik kaszinónak van a legjobb bónusza 2026-ban?"
+    a: "A legjobb bónusz az 1Win 500%-os üdvözlő csomagja (4 befizetésre, max. 1 500€). Kripto játékosoknak az 1xBit 100% bónusza 1 BTC-ig a legjobb ajánlat."
 ---
 
 ## 🏆 Top Kaszinó Bónuszok 2026
