@@ -4,9 +4,7 @@ title = "Legjobb Online Kaszinók Magyarország 2026"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
-
-[minify]
-  minifyOutput = true
+disableKinds = ["taxonomy", "term"]
 
 [imaging]
   quality = 80
